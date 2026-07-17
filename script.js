@@ -24,9 +24,8 @@ function spin() {
         balance += 20;
         text += "Вы Выйграли 20 монет!";
     } else {
-        text += "Попробуйте еще раз!";
+        text += "Вы проиграли!";
     }
-
     document.getElementById("balance").textContent = balance;
     document.getElementById("result").textContent = text;
 }

@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Мини казино</title>
+    <link rel="stylesheet" href="CasinoGame.css">
 </head>
 <body>
-    <h1>🎰 Мини Казино</h1>
-
-    <p>Баланс: <span id="balance">100</span> монет</p>
-    <button onclick="spin()">Крутить (10 монет)</button>
-
-    <h2 id="result">Нажмите кнопку</h2>
-
+    <header class="header">
+        <h1>Мини Казино</h1>
+        <p>Баланс: <span id="balance">100</span> монет</p>
+    </header>
+    <h2 class="wen" id="result">Стоимость 10 монет</h2>
+    <button class="button" onclick="spin()">Крутить</button>
+    
     <script src="script.js"></script>
 </body>
 </html>
