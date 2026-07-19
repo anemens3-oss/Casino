@@ -4,6 +4,7 @@ if (a >= 18) {
     alert("Можете играть!")
 } else if (a < 18) {
     alert("Какнибудь в следеющий раз")
+    window.location.href = "https://google.com";
 }
 
 
