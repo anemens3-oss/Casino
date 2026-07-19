@@ -9,10 +9,21 @@
     <header class="header">
         <h1>Мини Казино</h1>
         <p>Баланс: <span id="balance">100</span> монет</p>
+            <button id="openModal">Открыть окно</button>
+        <div class="modal" id="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Заголовок</h2>
+                <p>Это пример модального окна.</p>
+            </div>
+        </div>
     </header>
-    <h2 class="wen" id="result">Стоимость 10 монет</h2>
+    <h2 class="wen">Стоимость 10 монет</h2>
+    <h1 class="wen" id="result"></h1>
     <button class="button" onclick="spin()">Крутить</button>
     
     <script src="script.js"></script>
+    <script src="sum.js"></script>
+        <script src="old.js"></script>
 </body>
 </html>
